@@ -24,3 +24,10 @@ Letters are scored as in Scrabble; A is worth 1, B is worth 3, C is worth 3, D i
 For example, 'weed' would be worth 32 points ((4+1+1+2) for the four letters, then multiply by len('weed') to get (4+1+1+2)*4 = 32). Be sure to check that the hand actually has 1 'w', 2 'e's, and 1 'd' before scoring the word!
 
 As another example, if n=7 and you make the word 'waybill' on the first try, it would be worth 155 points (the base score for 'waybill' is (4+1+4+3+1+1+1)*7=105, plus an additional 50 point bonus for using all n letters).
+
+Now that you have completed your word game code, you decide that you would like to enable your computer (SkyNet) to play the game (your hidden agenda is to prove once and for all that computers are inferior to human intellect!) In this part, you will be able to compare how you as a user succeed in the game compared to the computer's performance.
+
+You should look at the following two functions: compChooseWord and compPlayHand, before moving on to Problem 7 on the next page.
+
+### compChooseWord
+If you follow the pseudocode for compChooseWord, you'll see that the code creates a computer player that is legal, but not always the best. Try to walk through and understand our implementation.
