@@ -2,7 +2,7 @@
 In this problem set, you'll implement two versions of a wordgame!
 
 Don't be intimidated by the length of this problem set. There is a lot of reading, but it can be done with a reasonable amount of thinking and coding. It'll be helpful if you start this problem set a few days before it is due!
-
+## part 1
 Let's begin by describing the 6.00 wordgame: This game is a lot like Scrabble or Words With Friends, if you've played those. Letters are dealt to players, who then construct one or more words out of their letters. Each valid word receives a score, based on the length of the word and the letters in that word.
 
 The rules of the game are as follows:
@@ -25,6 +25,7 @@ For example, 'weed' would be worth 32 points ((4+1+1+2) for the four letters, th
 
 As another example, if n=7 and you make the word 'waybill' on the first try, it would be worth 155 points (the base score for 'waybill' is (4+1+4+3+1+1+1)*7=105, plus an additional 50 point bonus for using all n letters).
 
+## part 2
 Now that you have completed your word game code, you decide that you would like to enable your computer (SkyNet) to play the game (your hidden agenda is to prove once and for all that computers are inferior to human intellect!) In this part, you will be able to compare how you as a user succeed in the game compared to the computer's performance.
 
 You should look at the following two functions: compChooseWord and compPlayHand, before moving on to Problem 7 on the next page.
