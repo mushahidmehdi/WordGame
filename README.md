@@ -40,4 +40,5 @@ Now that you have completed your word game code, you decide that you would like 
 You should look at the following two functions: compChooseWord and compPlayHand, before moving on to Problem 7 on the next page.
 
 ### compChooseWord
+
 If you follow the pseudocode for compChooseWord, you'll see that the code creates a computer player that is legal, but not always the best. Try to walk through and understand our implementation.
